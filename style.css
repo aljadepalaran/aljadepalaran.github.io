@@ -1,0 +1,43 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #43455c;
+}
+
+.container {
+    width: 90%;
+    margin-left: auto;
+    height: 10000px;
+}
+
+.navbar{
+    width: 5%;
+    position: fixed;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-radius: 50px;
+    background-color: #2e3047;
+}
+
+.navbar-item {
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding-top: 25px;
+    border-radius: 5px;
+}
+
+.primary-container {
+    display: flex;
+}
+
+.nav-list{
+    padding-left: 30px;
+}
+
+#home, #projects, #certifications, #experience {
+    height: 100vh;
+}
