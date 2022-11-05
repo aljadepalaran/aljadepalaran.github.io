@@ -3,13 +3,12 @@ html {
 }
 
 body {
-    background-color: #43455c;
+    background-color: #3d405c;
 }
 
 .container {
     width: 90%;
     margin-left: auto;
-    height: 10000px;
 }
 
 .navbar{
@@ -40,4 +39,61 @@ body {
 
 #home, #projects, #certifications, #experience {
     height: 100vh;
+}
+
+#card-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr.rounded{background-color: ;
+    border-top: 2px solid rgb(70, 73, 96);
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#github-btn{
+    width: 150px;
+    height: 25px;
+    background-color: #1f2135;
+    border: solid 1px black;
+    padding: 25px;
+    border-radius: 25px;
+    margin: auto;
+    text-align: center;
+}
+#projects-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+.card {
+    height: 60vh;
+    width: 30vw;
+    margin: 50px;
+    background-color: #1f2135;
+    border: solid 1px black;
+    border-radius: 25px;
+}
+
+.card-images{
+    height: 45%;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+}
+.card-txt{
+    text-align: center;
+    padding: 10px;
+    height: 45%;
 }
