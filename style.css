@@ -47,7 +47,7 @@ body {
     justify-content: center;
 }
 
-hr.rounded{background-color: ;
+hr.rounded{
     border-top: 2px solid rgb(70, 73, 96);
     border-radius: 5px;
 }
