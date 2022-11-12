@@ -11,7 +11,7 @@ body {
     margin-left: auto;
 }
 
-.navbar{
+.navbar {
     width: 5%;
     position: fixed;
     top: 50%;
@@ -33,7 +33,7 @@ body {
     display: flex;
 }
 
-.nav-list{
+.nav-list {
     padding-left: 30px;
 }
 
@@ -47,7 +47,7 @@ body {
     justify-content: center;
 }
 
-hr.rounded{
+hr.rounded {
     border-top: 2px solid rgb(70, 73, 96);
     border-radius: 5px;
 }
@@ -56,7 +56,7 @@ h2 {
     text-align: center;
 }
 
-#github-btn{
+#github-btn {
     width: 150px;
     height: 25px;
     background-color: #1f2135;
@@ -66,15 +66,16 @@ h2 {
     margin: auto;
     text-align: center;
 }
-#projects-content{
+#projects-content {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-a{
+a {
     text-decoration: none;
 }
+
 .card {
     height: 60vh;
     width: 30vw;
@@ -96,4 +97,6 @@ a{
     text-align: center;
     padding: 10px;
     height: 45%;
+    width: 75%;
+    margin: auto;
 }
