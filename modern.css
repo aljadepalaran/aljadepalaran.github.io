@@ -1,0 +1,143 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3 {
+    font-size: 1.2rem;
+}
+h4 {
+    font-size: .8rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: lightgray;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hove  r {
+    background: #555;
+}
+
+hr.rounded {
+    border-top: 1px solid #bbb;
+    border-radius: 1px;
+    width: 90%;
+}
+.container {
+    width: 70%;
+    margin: auto;
+    height: 95vh;
+    border: solid 1px blue;
+    overflow: auto;
+}
+
+.profile-banner {
+    width: 15%;
+    position: fixed;
+    border: solid 1px black;
+    height: 95vh;
+}
+
+.banner-header {
+    border: solid 1px black;    
+    height: 25%;
+    background-color:aqua;
+    text-align: center;
+}
+
+.banner-header h4 {
+    width: 70%;
+    margin: auto;
+}
+
+.banner-information {
+    background-color: blueviolet;
+    height: 75%;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.basic-information-table {
+    width: 100%;
+    padding: 7%;
+}
+
+.basic-information-table th {
+    text-align: left;
+    font-size: .7rem;
+}
+
+.basic-information-table tr {
+    text-align: right;
+    font-size: .7rem;
+}
+
+.information {
+    height: 80%;
+}
+
+.language-information {
+    padding: 5%;
+}
+
+.skills-information {    
+    font-size: .7rem;
+    padding: 0 5%;
+}
+
+.download-cv {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#download-btn {
+    border: solid 1px black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: lightblue;
+    border-radius: 15px;
+    text-decoration:none
+}
+
+.social-media {
+    background-color: black;
+    height: 5%;
+    margin-bottom: 0px;
+}
+
+.profile-image {
+    width: 30%;
+    border-radius: 50%;
+    aspect-ratio : 1 / 1;
+    margin: 10px auto;
+    display:block;
+    margin-left: auto;
+}
+
+.main-content {
+    width: 78%;
+    margin-left: auto;
+    margin-right: 0;
+    background-color: lightgray;
+    height: 900rem;
+}
+
+.main-content-header {
+    height: 250px;
+    background-color: pink;
+}
