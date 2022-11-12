@@ -38,22 +38,21 @@ hr.rounded {
     width: 70%;
     margin: auto;
     height: 95vh;
-    border: solid 1px blue;
     overflow: auto;
 }
 
 .profile-banner {
     width: 15%;
     position: fixed;
-    border: solid 1px black;
     height: 95vh;
+    background-color: rgb(125, 124, 124);
 }
 
-.banner-header {
-    border: solid 1px black;    
+.banner-header {  
     height: 25%;
-    background-color:aqua;
+    padding-top: 5px;
     text-align: center;
+    background-color: rgb(143, 143, 143);
 }
 
 .banner-header h4 {
@@ -62,7 +61,6 @@ hr.rounded {
 }
 
 .banner-information {
-    background-color: blueviolet;
     height: 75%;
     margin-top: auto;
     margin-bottom: 0;
@@ -88,7 +86,13 @@ hr.rounded {
 }
 
 .language-information {
-    padding: 5%;
+    padding: 2%;    
+}
+
+.language-information h4 {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
 }
 
 .skills-information {    
@@ -103,7 +107,7 @@ hr.rounded {
     justify-content: center;
 }
 
-#download-btn {
+.download-cv a {
     border: solid 1px black;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -130,14 +134,155 @@ hr.rounded {
 }
 
 .main-content {
-    width: 78%;
+    width: 74.5%;
     margin-left: auto;
     margin-right: 0;
     background-color: lightgray;
     height: 900rem;
+    padding: 25px;
 }
 
 .main-content-header {
     height: 250px;
     background-color: pink;
+    text-align: center;
+}
+
+.main-content-statistics {
+    margin-top: 20px;
+    height: 50px;
+    background-color: pink;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.statistic-panel {
+    margin: auto 50px;
+}
+
+.main-content-projects {
+    margin-top: 20px;
+    background-color: pink;
+}
+
+.main-content-projects h3 {
+    padding-top: 5px;
+    text-align: center;
+}
+
+.main-content-project-row {
+    display: flex;
+}
+
+.project-card {
+    width: 30%;
+    background-color: gray;
+    margin: 10px;
+    height: 150px;
+    padding: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+.see-more-card {
+    width: 30%;
+    background-color: gray;
+    margin: 10px;
+    height: 150px;
+    padding: 25px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+.project-card p {
+    font-size: .7rem;
+}
+
+.main-content-history {
+    margin-top: 20px;
+    background-color: pink;
+    display: flex;
+}
+
+.main-content-education {
+    text-align: center;
+    width: 50%;
+}
+
+.main-content-experience {
+    text-align: center;
+    width: 50%;
+}
+
+.timeline {
+    margin: 0 auto;
+    max-width: 50;
+    color: black;
+    grid-template-columns: 1fr 3px;
+    display: grid;
+}
+
+.timeline-component {
+    margin: 0 10px 10px 10px;
+}
+
+.timeline-bar {
+    position: relative;
+    background-color: yellow;
+}
+
+.timeline-point {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+}
+.timeline-component-bg {
+    padding: 1.5em;
+    background: rgb(123, 123, 123);
+    box-shadow: 0 0 5px black;
+    border-radius: 3px;
+}
+
+.timeline-header {
+    width: 100%;
+}
+.timeline-header th{
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.timeline-header td{
+    font-size: 0.7em;
+    text-align: right;
+}
+
+.timeline-subtitle {
+    font-size: 0.7em;
+    font-weight: lighter;
+    text-align: left;
+    font-style: italic;
+}
+
+.timeline-date {
+    background-color: darkgray;
+    width: 100%;
+    padding: 2px 5px 2px 5px;
+    border-radius: 25px;
+}
+
+.timeline-paragraph {
+    line-height: 1.15;
+    font-size: 0.7em;
+    text-align: left;
+    margin: 0px;
 }
